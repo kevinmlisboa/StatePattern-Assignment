@@ -31,16 +31,5 @@ A vending machine needs to manage different states, including "Idle", "ItemSelec
     - Delegate actions like selectItem, insertCoin, dispenseItem, and setOutOfOrder to the current state object through its corresponding methods.
 
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
 ## UML DIAGRAM
 ![Image](https://github.com/user-attachments/assets/41cd53d2-c785-40b8-ac71-50dae1ecd35c)
